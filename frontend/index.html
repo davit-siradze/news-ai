@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სიახლეების პორტალი</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        #news-container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .news-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+        }
+        .error {
+            color: #e74c3c;
+        }
+    .news-list {
+        margin-top: 20px;
+    }
+    .news-item {
+        background: #f9f9f9;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border-left: 4px solid #2c3e50;
+    }
+    .news-item h3 {
+        margin-top: 0;
+        color: #2c3e50;
+    }
+    .error {
+        color: #e74c3c;
+        padding: 10px;
+        background: #fdd;
+    }
+    </style>
+</head>
+<body>
+    <h1>უახლესი სიახლეები</h1>
+    <div id="news-container">
+        <p class="loading">იტვირთება სიახლეები...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
